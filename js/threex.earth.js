@@ -349,8 +349,8 @@ THREEx.Planets.Earth = class Earth extends THREE.Mesh {
 		    this.loader.load(
                 // THREEx.Planets.baseURL+'dnb_land_ocean_ice.2012.13500x6750.jpg', 
                 // THREEx.Planets.baseURL+'earth_lights.gif', 
-                THREEx.Planets.baseURL+'earth_bath_3600x1800_color.jpg', 
-                // THREEx.Planets.baseURL+'earthnight16k.jpg', 
+                // THREEx.Planets.baseURL+'earth_bath_3600x1800_color.jpg', 
+                THREEx.Planets.baseURL+'earthnight16k.jpg', 
                 texture => {
     		        this.material.emissiveMap = texture;
             		this.material.emissive = new THREE.Color( 0xFFFFAA );
